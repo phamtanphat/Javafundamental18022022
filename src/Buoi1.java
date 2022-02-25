@@ -68,14 +68,14 @@ public class Buoi1 {
 //         9 - 4 - 9 + 3 - 3 + 8 + 2 + 7; a = 6 , b = 1
 //         13 ; a = 6 , b = 1
 
-        // 4 : Câu điều kiện
-
+//         4 : Câu điều kiện
+//
 //        int a = 5;
 //        int b = 10;
-        // A > b : A lớn hơn B
-        // A < B : A bé hơn B
-        // A == B : A bằng B
-
+//         A > b : A lớn hơn B
+//         A < B : A bé hơn B
+//         A == B : A bằng B
+//
 //        if (a > b){
 //            System.out.println("A lơn hơn B");
 //        }else if(a < b){
@@ -83,33 +83,47 @@ public class Buoi1 {
 //        }else{
 //            System.out.println("A bằng B");
 //        }
+//
+//         Nhập dữ liệu vào
+//        System.out.print("Nhập chiều cao của bạn(m) : " );
+//        Scanner scanner = new Scanner(System.in);
+//        double height = scanner.nextDouble();
+//
+//        System.out.print("Nhập cân nặng của bạn(kg) : " );
+//        double weight = scanner.nextDouble();
+//
+//        double bmi = weight / (height * height);
+//
+//        System.out.println("BMI : " + bmi);
+//        if (bmi < 18.5){
+//            System.out.println("Cân nặng thấp (gầy)");
+//        }else if (bmi <= 24.9){
+//            System.out.println("Bình thường");
+//        }else if(bmi == 25){
+//            System.out.println("Thừa cân");
+//        }else if(bmi <= 29.9){
+//            System.out.println("Tiền béo phì");
+//        }else if(bmi <= 34.9){
+//            System.out.println("Béo phì độ I");
+//        }else if(bmi <= 39.9){
+//            System.out.println("Béo phì độ II");
+//        }else if (bmi >= 40){
+//            System.out.println("Béo phì độ III");
+//        }
 
-        // Nhập dữ liệu vào
-        System.out.print("Nhập chiều cao của bạn(m) : " );
-        Scanner scanner = new Scanner(System.in);
-        double height = scanner.nextDouble();
+        // Bài tập về nhà
+        // Tồng tiền : 300000
+        // Mã khách hàng :
+        // Loại 1 : N => giảm 5 % trên tổng tiền
+        // Loại 2 : O => giảm 7 % trên tổng tiền
+        // Loại 3 : V => giảm 10 % trên tổng tiền
 
-        System.out.print("Nhập cân nặng của bạn(kg) : " );
-        double weight = scanner.nextDouble();
+        // Nhập mẫu
+        // Xin quý khách nhập vào tổng tiền :
+        // Xin quý Khách nhập mã khách hàng :
 
-        double bmi = weight / (height * height);
-
-        System.out.println("BMI : " + bmi);
-        if (bmi < 18.5){
-            System.out.println("Cân nặng thấp (gầy)");
-        }else if (bmi <= 24.9){
-            System.out.println("Bình thường");
-        }else if(bmi == 25){
-            System.out.println("Thừa cân");
-        }else if(bmi <= 29.9){
-            System.out.println("Tiền béo phì");
-        }else if(bmi <= 34.9){
-            System.out.println("Béo phì độ I");
-        }else if(bmi <= 39.9){
-            System.out.println("Béo phì độ II");
-        }else if (bmi >= 40){
-            System.out.println("Béo phì độ III");
-        }
-
+        // In mẫu
+        // Khách loại thuộc nhóm vip sẽ được giảm 10 %
+        // Tổng tiền phải trả là 270000
     }
 }
