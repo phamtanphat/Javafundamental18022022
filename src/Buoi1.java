@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Buoi1 {
+
     public static void main(String[] args){
 //         1 : Kiểu dữ liệu
 //         Nhóm 1 : Kiểu dữ liệu nguyên thủy (Primitives type)
@@ -125,5 +126,35 @@ public class Buoi1 {
         // In mẫu
         // Khách loại thuộc nhóm vip sẽ được giảm 10 %
         // Tổng tiền phải trả là 270000
+
+        // 5 : Câu điều kiện switch case
+
+        int month = 10;
+        switch (month){
+            case 1 :
+            case 2 :
+            case 3 :
+                System.out.println("Là quý 1");
+                break;
+            case 4 :
+            case 5 :
+            case 6 :
+                System.out.println("Là quý 2");
+                break;
+            case 7 :
+            case 8 :
+            case 9 :
+                System.out.println("Là quý 3");
+                break;
+            case 10 :
+            case 11 :
+            case 12 :
+                System.out.println("Là quý 4");
+                break;
+            default:
+                System.out.println("Không thuộc quý nào");
+                break;
+        }
+
     }
 }
