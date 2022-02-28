@@ -163,5 +163,11 @@ public class Buoi1 {
 
         // khai báo mảng và định nghĩa các phần tử
         int[] arrNumbers = {10,20,30,40,50,60};
+
+        // lấy kích thước mảng
+        ///arrNumbers.length
+
+        // lấy giá trị của phần tử trong mảng
+        System.out.println(arrNumbers[arrNumbers.length - 1]);
     }
 }
