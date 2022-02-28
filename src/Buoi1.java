@@ -159,10 +159,10 @@ public class Buoi1 {
         // 5 : Mảng array
 
         // khai báo mảng khi biết kích thước
-        String[] arrNames = new String[10];
+//        String[] arrNames = new String[10];
 
         // khai báo mảng và định nghĩa các phần tử
-        int[] arrNumbers = {10,20,30,40,50,60};
+//        int[] arrNumbers = {10,20,30,40,50,60};
 
         // lấy kích thước mảng
         ///arrNumbers.length
@@ -175,5 +175,12 @@ public class Buoi1 {
 //        arrNames[1] = "Tí";
 //        arrNames[2] = "Tủn";
 
+        // 6 : Vòng lặp for
+
+//        for(int i = 10 ; i >= 0 ; i--){
+//            System.out.println("Value : " + i);
+//        }
+
+        String[] arrNames = {"Tèo","Tý","Tủn","Đức","Tuấn","Hoa"};
     }
 }
