@@ -193,18 +193,40 @@ public class Buoi1 {
 //        double ketQua = a / b;
 //        System.out.println(ketQua);
 
-        int[] arrNumber = {2,3,5,10,12,20,30,18,9,60};
+//        int[] arrNumber = {2,3,5,10,12,20,30,18,9,60};
 
         // Kiếm Số chẳn đầu tiên ở vị trí nào
-        for (int i = 0; i < arrNumber.length; i++) {
-            if (arrNumber[i] % 2 == 0) {
-               if (i == 0){
-                   continue;
-               }else {
-                   System.out.println("Index : " + i);
-                   break;
-               }
-            }
-        }
+//        for (int i = 0; i < arrNumber.length; i++) {
+//            if (arrNumber[i] % 2 == 0) {
+//               if (i == 0){
+//                   continue;
+//               }else {
+//                   System.out.println("Index : " + i);
+//                   break;
+//               }
+//            }
+//        }
+
+        // Bài 1 : Tính tổng các phần tử trong mảng
+//        int[] arrNumbers = {1,3,10,14,15,12,20};
+
+        // Bài 2 :
+
+//        int[] arr1 = {1,2,3,4,5};
+//        int[] arr2 = {10,20,30};
+
+        // in ra như sau
+        // 10
+        // 20
+        // 30
+        // 40
+        // 50
+        // ..
+        // 20
+        // 40
+        //..
+        // 30
+        // 150
+
     }
 }
