@@ -168,6 +168,12 @@ public class Buoi1 {
         ///arrNumbers.length
 
         // lấy giá trị của phần tử trong mảng
-        System.out.println(arrNumbers[arrNumbers.length - 1]);
+//        System.out.println(arrNumbers[arrNumbers.length - 1]);
+
+        // cập nhật giá trị cho phần tử
+//        arrNames[0] = "Tèo";
+//        arrNames[1] = "Tí";
+//        arrNames[2] = "Tủn";
+
     }
 }
