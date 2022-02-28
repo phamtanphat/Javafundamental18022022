@@ -196,5 +196,10 @@ public class Buoi1 {
         int[] arrNumber = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
 
         // Sử dụng vòng lặp và in ra số chẳn
+        for (int i = 0 ; i < arrNumber.length ; i++){
+            if (arrNumber[i] % 2 == 0){
+                System.out.println("Value : " + arrNumber[i]);
+            }
+        }
     }
 }
