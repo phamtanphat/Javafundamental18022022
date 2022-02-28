@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Buoi1 {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 //         1 : Kiểu dữ liệu
 //         Nhóm 1 : Kiểu dữ liệu nguyên thủy (Primitives type)
 //         String (chuỗi)
@@ -193,12 +193,17 @@ public class Buoi1 {
 //        double ketQua = a / b;
 //        System.out.println(ketQua);
 
-        int[] arrNumber = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
+        int[] arrNumber = {2,3,5,10,12,20,30,18,9,60};
 
-        // Sử dụng vòng lặp và in ra số chẳn
-        for (int i = 0 ; i < arrNumber.length ; i++){
-            if (arrNumber[i] % 2 == 0){
-                System.out.println("Value : " + arrNumber[i]);
+        // Kiếm Số chẳn đầu tiên ở vị trí nào
+        for (int i = 0; i < arrNumber.length; i++) {
+            if (arrNumber[i] % 2 == 0) {
+               if (i == 0){
+                   continue;
+               }else {
+                   System.out.println("Index : " + i);
+                   break;
+               }
             }
         }
     }
