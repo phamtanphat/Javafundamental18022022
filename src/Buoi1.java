@@ -182,5 +182,9 @@ public class Buoi1 {
 //        }
 
         String[] arrNames = {"Tèo","Tý","Tủn","Đức","Tuấn","Hoa"};
+
+        for (int i = 0 ; i < arrNames.length ; i++){
+            System.out.println("Name : " + arrNames[i] );
+        }
     }
 }
