@@ -181,10 +181,20 @@ public class Buoi1 {
 //            System.out.println("Value : " + i);
 //        }
 
-        String[] arrNames = {"Tèo","Tý","Tủn","Đức","Tuấn","Hoa"};
+//        String[] arrNames = {"Tèo","Tý","Tủn","Đức","Tuấn","Hoa"};
+//
+//        for (int i = 0 ; i < arrNames.length ; i++){
+//            System.out.println("Name : " + arrNames[i] );
+//        }
+//
+//        double a = 5;
+//        double b = 10;
+//
+//        double ketQua = a / b;
+//        System.out.println(ketQua);
 
-        for (int i = 0 ; i < arrNames.length ; i++){
-            System.out.println("Name : " + arrNames[i] );
-        }
+        int[] arrNumber = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
+
+        // Sử dụng vòng lặp và in ra số chẳn
     }
 }
