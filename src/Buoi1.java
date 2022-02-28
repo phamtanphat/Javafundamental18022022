@@ -129,32 +129,39 @@ public class Buoi1 {
 
         // 5 : Câu điều kiện switch case
 
-        int month = 10;
-        switch (month){
-            case 1 :
-            case 2 :
-            case 3 :
-                System.out.println("Là quý 1");
-                break;
-            case 4 :
-            case 5 :
-            case 6 :
-                System.out.println("Là quý 2");
-                break;
-            case 7 :
-            case 8 :
-            case 9 :
-                System.out.println("Là quý 3");
-                break;
-            case 10 :
-            case 11 :
-            case 12 :
-                System.out.println("Là quý 4");
-                break;
-            default:
-                System.out.println("Không thuộc quý nào");
-                break;
-        }
+//        int month = 10;
+//        switch (month){
+//            case 1 :
+//            case 2 :
+//            case 3 :
+//                System.out.println("Là quý 1");
+//                break;
+//            case 4 :
+//            case 5 :
+//            case 6 :
+//                System.out.println("Là quý 2");
+//                break;
+//            case 7 :
+//            case 8 :
+//            case 9 :
+//                System.out.println("Là quý 3");
+//                break;
+//            case 10 :
+//            case 11 :
+//            case 12 :
+//                System.out.println("Là quý 4");
+//                break;
+//            default:
+//                System.out.println("Không thuộc quý nào");
+//                break;
+//        }
 
+        // 5 : Mảng array
+
+        // khai báo mảng khi biết kích thước
+        String[] arrNames = new String[10];
+
+        // khai báo mảng và định nghĩa các phần tử
+        int[] arrNumbers = {10,20,30,40,50,60};
     }
 }
