@@ -209,11 +209,16 @@ public class Buoi1 {
 
         // Bài 1 : Tính tổng các phần tử trong mảng
 //        int[] arrNumbers = {1,3,10,14,15,12,20};
+//        int result = 0;
+//        for (int i = 0 ; i < arrNumbers.length ; i++){
+//            result += arrNumbers[i];
+//        }
+//        System.out.println("Tổng : " + result);
 
         // Bài 2 :
 
-//        int[] arr1 = {1,2,3,4,5};
-//        int[] arr2 = {10,20,30};
+        int[] arr1 = {1,2,3,4,5};
+        int[] arr2 = {10,20,30};
 
         // in ra như sau
         // 10
@@ -227,6 +232,14 @@ public class Buoi1 {
         //..
         // 30
         // 150
+
+        for (int i = 0 ; i < arr2.length ; i++){
+            int valueArr2 = arr2[i];
+            for (int y = 0 ; y < arr1.length ; y++){
+                int value = arr1[y] * valueArr2;
+                System.out.println(value);
+            }
+        }
 
     }
 }
