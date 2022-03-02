@@ -217,8 +217,8 @@ public class Buoi1 {
 
         // Bài 2 :
 
-        int[] arr1 = {1,2,3,4,5};
-        int[] arr2 = {10,20,30};
+//        int[] arr1 = {1,2,3,4,5};
+//        int[] arr2 = {10,20,30};
 
         // in ra như sau
         // 10
@@ -233,13 +233,30 @@ public class Buoi1 {
         // 30
         // 150
 
-        for (int i = 0 ; i < arr2.length ; i++){
-            int valueArr2 = arr2[i];
-            for (int y = 0 ; y < arr1.length ; y++){
-                int value = arr1[y] * valueArr2;
-                System.out.println(value);
+//        for (int i = 0 ; i < arr2.length ; i++){
+//            int valueArr2 = arr2[i];
+//            for (int y = 0 ; y < arr1.length ; y++){
+//                int value = arr1[y] * valueArr2;
+//                System.out.println(value);
+//            }
+//        }
+
+        // while , do while
+
+
+
+        System.out.print("Bạn hãy nhập 1 số bất kỳ : ");
+        Scanner scanner = new Scanner(System.in);
+        int number = scanner.nextInt();
+
+        do {
+            if (number > 0 && number < 10){
+                System.out.println("Các giá trị đếm ngược là : " + number);
+                number--;
+            }else{
+                System.out.println("Giá trị không thỏa điều kiện");
             }
-        }
+        }while (number > 0 && number < 10);
 
     }
 }
