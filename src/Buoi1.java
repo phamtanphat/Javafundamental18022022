@@ -243,20 +243,35 @@ public class Buoi1 {
 
         // while , do while
 
+//        System.out.print("Bạn hãy nhập 1 số bất kỳ : ");
+//        Scanner scanner = new Scanner(System.in);
+//        int number = scanner.nextInt();
+//
+//        do {
+//            if (number > 0 && number < 10){
+//                System.out.println("Các giá trị đếm ngược là : " + number);
+//                number--;
+//            }else{
+//                System.out.println("Giá trị không thỏa điều kiện");
+//            }
+//        }while (number > 0 && number < 10);
 
+        // object (Đối tượng) va class ( Tập thể)
 
-        System.out.print("Bạn hãy nhập 1 số bất kỳ : ");
-        Scanner scanner = new Scanner(System.in);
-        int number = scanner.nextInt();
+        // Tạo ra object
+        Animal meo = new Animal();
+        meo.weight = "3";
+        meo.height = "0.5";
 
-        do {
-            if (number > 0 && number < 10){
-                System.out.println("Các giá trị đếm ngược là : " + number);
-                number--;
-            }else{
-                System.out.println("Giá trị không thỏa điều kiện");
-            }
-        }while (number > 0 && number < 10);
+        meo.showInfo();
 
     }
+    // phương thức
+    // 1 : Phạm vi hoạt động
+    // 2 : Giá trị trả về
+    // 3 : tên phương phức(động từ)
+    // 4 : tham số truyền vào
+
+//    public void
+
 }
