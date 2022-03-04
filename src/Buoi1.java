@@ -266,7 +266,7 @@ public class Buoi1 {
         // 2 : Tính kế thừa
 
         Cat cat = new Cat("3","0.5","Grey");
-
+        cat.showInfo();
     }
     // phương thức
     // 1 : Phạm vi hoạt động

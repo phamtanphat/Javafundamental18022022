@@ -6,4 +6,9 @@ public class Cat extends Animal {
        this.color = color;
     }
 
+    @Override
+    public void showInfo() {
+        super.showInfo();
+        System.out.println("Color : " + color);
+    }
 }
