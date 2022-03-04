@@ -259,9 +259,7 @@ public class Buoi1 {
         // object (Đối tượng) va class ( Tập thể)
 
         // Tạo ra object
-        Animal meo = new Animal();
-        meo.weight = "3";
-        meo.height = "0.5";
+        Animal meo = new Animal("3","0.5");
 
         meo.showInfo();
 
