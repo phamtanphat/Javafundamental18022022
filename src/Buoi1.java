@@ -265,8 +265,11 @@ public class Buoi1 {
 //        public , private , default , protected
         // 2 : Tính kế thừa
 
-        Cat cat = new Cat("3","0.5","Grey");
-        cat.showInfo();
+//        Cat cat = new Cat("3","0.5","Grey");
+//        cat.showInfo();
+
+        PizzaStore pizzaStore = new PizzaStore();
+        pizzaStore.orderPizza(new PizzaCheese());
     }
     // phương thức
     // 1 : Phạm vi hoạt động
