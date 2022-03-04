@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Buoi1 {
 
     public static void main(String[] args) {
@@ -259,9 +257,15 @@ public class Buoi1 {
         // object (Đối tượng) va class ( Tập thể)
 
         // Tạo ra object
-        Animal meo = new Animal("3","0.5");
+//        Animal meo = new Animal("3","0.5");
+//        meo.setWeight("5");
+//        meo.showInfo();
 
-        meo.showInfo();
+        // 1 : Tính đóng gói : thể hiện thông qua access modifier
+//        public , private , default , protected
+        // 2 : Tính kế thừa
+
+        Cat cat = new Cat("3","0.5","Grey");
 
     }
     // phương thức
